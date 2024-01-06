@@ -1,0 +1,89 @@
+
+html {
+    background: rgb(117, 48, 108);
+}
+
+.main {
+    margin-top: 30px;
+    
+    
+    h1 {
+        color: azure;
+        text-align: center;
+        font-size: 60px;
+    }
+}
+
+form {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+    display: flex;
+    font-size: 26px;
+    color: azure;
+    input[type=text]{
+        color: azure;
+        padding-left: 6px;
+        border-spacing: 2px;
+        background-color: rgb(219, 144, 209);
+        
+        margin-bottom: 9px;
+        border: 5px;
+        width: 250px;
+        height: 30px;
+    }
+
+    
+    
+}
+
+.btn {
+    border-radius: 20px;
+    border: 3px solid azure;
+    color: azure;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    background-color: rgb(219, 144, 209);
+
+    transition: all .2s;
+   
+
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(144, 163, 248);
+    
+}
+
+.lista {
+    h2 {
+        color: azure;
+    }
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 41px;
+    
+    border: 1px solid azure;
+    text-align: center;
+
+    ul{
+        padding: 0;
+
+        .tarefa {
+            margin-bottom: 9px;
+            color: rgb(144, 163, 248);
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.checked {
+    text-decoration: line-through;
+  }
